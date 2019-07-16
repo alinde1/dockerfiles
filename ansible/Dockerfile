@@ -9,6 +9,9 @@ RUN pip install --upgrade pip && \
     pip install setuptools==39.2.0 && \
     pip install -r /tmp/requirements.txt
 
+RUN yum -y install  https://centos7.iuscommunity.org/ius-release.rpm && \
+    yum -y install  git2u-all
+
 RUN useradd -ms /bin/bash ansible
 USER ansible
 WORKDIR /home/ansible
