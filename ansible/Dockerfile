@@ -8,3 +8,8 @@ COPY requirements.txt /tmp/requirements.txt
 RUN pip install --upgrade pip && \
     pip install setuptools==39.2.0 && \
     pip install -r /tmp/requirements.txt
+
+RUN useradd -ms /bin/bash ansible
+USER ansible
+WORKDIR /home/ansible
+COPY ansible_vault .ansible_vault
