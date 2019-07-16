@@ -1,0 +1,13 @@
+#!/bin/bash
+
+SOURCE_FILE="$HOME/.ansible_vault_id"
+
+if [ -e "$SOURCE_FILE" ]
+then
+  base64 -d "$SOURCE_FILE"
+else
+  echo ${ANSIBLE_VAULT}
+fi
+
+exit 0
+
