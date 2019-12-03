@@ -21,7 +21,7 @@ decorator==3.4.0
 distribute==0.7.3
 dnspython==1.15.0
 docutils==0.11
-ecdsa==0.13
+ecdsa==0.13.3
 elasticsearch==6.2.0
 elasticsearch-curator==5.5.4
 #enum34==1.1.6
