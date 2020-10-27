@@ -15,7 +15,7 @@ click==6.7
 colorama==0.3.2
 configobj==4.7.2
 consulate==0.6.0
-cryptography==2.2.2
+cryptography==3.2
 datadog==0.21.0
 decorator==3.4.0
 distribute==0.7.3
