@@ -44,7 +44,7 @@ netaddr==0.7.19
 ordereddict==1.1
 paramiko==2.4.1
 perf==0.1
-Pillow==2.0.0
+Pillow==9.0.0
 pip==10.0.1
 pyasn1==0.4.3
 pycparser==2.18
